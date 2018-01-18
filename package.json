@@ -1,0 +1,29 @@
+{
+  "name": "CSC201",
+  "version": "0.0.1",
+  "description": "Sample nodejs",
+  "scripts": {
+    "start": "node bin/server.js",
+    "test": "mocha test",
+    "lint": "eslint src test"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "2.7.0",
+    "express": "^4.12.4",
+    "express-rate-limit": "^2.6.0",
+    "pg": "^6.1.5",
+    "winston": "^2.3.1"
+  },
+  "repository": {},
+  "engines": {
+    "node": "6.x"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "eslint-config-google": "^0.7.0",
+    "mocha": "^3.1.2",
+    "must": "^0.13.2",
+    "sinon": "^1.17.6"
+  }
+}
